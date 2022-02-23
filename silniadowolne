@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    long int silnia = 1;
+    long int n;
+    printf("Podaj liczbe: ");
+    scanf("%d", &n);
+    for (long int i=1;i<=n;i++)
+    silnia*=i;
+    printf("silnia = %ld", silnia);
+    return 0;
+}
